@@ -40,6 +40,10 @@ button:hover {
   opacity: 0.8;
   cursor: pointer;
 }
+.cta:hover {
+  color: #ffa7c3;
+  opacity: 0.8;
+}
 
 #header-btn {
   background-color: #13183f;
@@ -141,6 +145,9 @@ footer {
   .info-section {
     padding: 3rem 2rem;
   }
+  .info-section img {
+    margin-top: -50px;
+  }
 }
 
 @media only screen and (max-width: 520px) {
@@ -165,5 +172,9 @@ footer {
   .info {
     grid-template-columns: 1fr;
     margin-top: 40vh;
+  }
+
+  .info-section img {
+    margin-top: -50px;
   }
 }
