@@ -178,3 +178,31 @@ footer {
     margin-top: -50px;
   }
 }
+@media only screen and (max-width: 320px) {
+  header {
+    height: 10vh;
+  }
+
+  body {
+    background-image: url("./assets/image-hero-mobile.png");
+    background-repeat: no-repeat;
+    background-position: top 15% center;
+  }
+
+  .hero {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: clamp(1.25rem, 9vw, 5rem);
+  }
+
+  .info {
+    grid-template-columns: 1fr;
+    margin-top: 50vh;
+  }
+
+  .info-section img {
+    margin-top: -50px;
+  }
+}
