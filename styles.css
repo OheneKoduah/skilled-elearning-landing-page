@@ -27,6 +27,7 @@ header {
   align-items: center;
   padding-inline: 10%;
   height: 15vh;
+  left: 16px;
 }
 
 button {
@@ -198,8 +199,8 @@ footer {
   }
 
   .info {
-    /* grid-template-columns: 1fr; */
-    display: flex !important;
+    grid-template-columns: 1fr;
+    /* display: flex !important; */
     flex-direction: column;
     margin-top: 20vh;
   }
@@ -209,5 +210,10 @@ footer {
   }
   button {
     padding: 0.5rem 0.5rem;
+  }
+
+  header {
+    padding-inline: 26px;
+    height: 10vh;
   }
 }
