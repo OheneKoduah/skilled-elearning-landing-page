@@ -202,11 +202,11 @@ footer {
     grid-template-columns: 1fr;
     /* display: flex !important; */
     flex-direction: column;
-    margin-top: 20vh;
+    margin-top: 90vh;
   }
 
   .info-section img {
-    margin-top: -50px;
+    margin-top: -30px;
   }
   button {
     padding: 0.5rem 0.5rem;
@@ -216,4 +216,8 @@ footer {
     padding-inline: 26px;
     height: 10vh;
   }
+  .info-section {
+    padding-top: 7vh;
+  }
 }
+
