@@ -179,11 +179,7 @@ footer {
     margin-top: -50px;
   }
 }
-@media only screen and (max-width: 320px) {
-  header {
-    height: 10vh;
-  }
-
+@media only screen and (max-width: 376px) {
   body {
     background-image: url("./assets/image-hero-mobile.png");
     background-repeat: no-repeat;
@@ -206,18 +202,26 @@ footer {
   }
 
   .info-section img {
-    margin-top: -30px;
+    margin-top: -50px;
   }
-  button {
-    padding: 0.5rem 0.5rem;
+  #header-btn {
+    padding: 0.4rem 0.4rem;
   }
 
-  header {
-    padding-inline: 26px;
-    height: 10vh;
+  .p-1 {
+    padding: 1em;
+  }
+  .pl-1 {
+    padding-left: 1em;
+  }
+  .pb-2 {
+    padding-bottom: 2em;
   }
   .info-section {
     padding-top: 7vh;
   }
+  #hero-btn {
+    /* background-image: linear-gradient(to bottom, #f02aa6, #f02aa6); */
+    background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+  }
 }
-
