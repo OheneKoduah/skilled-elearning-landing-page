@@ -200,6 +200,9 @@ footer {
     flex-direction: column;
     margin-top: 90vh;
   }
+  #footer-btn {
+    padding: 0.4rem 0.4rem;
+  }
 
   .info-section img {
     margin-top: -50px;
